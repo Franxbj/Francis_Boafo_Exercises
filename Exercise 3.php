@@ -44,7 +44,7 @@
     echo "<h3>Checking your Exam Grade</h2>";
 ?>
 
-    <form method ="post" action ="exercise3.php">
+    <form method ="post" action ="Exercise 3.php">
         Please enter your total score:
         <p><input type ="text" name="grade"></p>
         <input type ="submit" value="submit">
@@ -74,7 +74,7 @@
     echo "<h3>Check your voting rights</h2>";
 ?>
 
- <form method ="post" action ="exercise3.php">
+ <form method ="post" action ="Exercise 3.php">
         Please enter your name:
         <p><input type ="text" name="grade"></p>
         Please enter your age:
