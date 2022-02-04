@@ -119,5 +119,11 @@
             $c = 1;
         }
 ?>
+
+<?php
+    echo "<h1>QUESTION 7</h1>";
+    echo "Link to HTML files</br>";
+    echo "https://raw.githubusercontent.com/Franxbj/StarLearners/main/starlearners.html>";
+
 </body>
 </html>
