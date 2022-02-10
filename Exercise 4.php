@@ -58,5 +58,17 @@ print_r($courses1);
     echo "<h1>QUESTION 3</h1>";
 ?>
 
+<?php
+    echo "<h1>QUESTION 4</h1>";
+    echo "Converting values in array to UPPERCASE.</br>";
+    $courses4=array("php", "html", "javascript", "cms", "project");
+  $name_convert = array_map("strtoupper", $courses4);
+
+  foreach ($name_convert as $NewArray) {
+    echo $NewArray. "</br>";
+  }
+?>
+
+
 </body>
 </html>
