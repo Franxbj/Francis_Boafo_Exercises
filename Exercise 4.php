@@ -69,6 +69,30 @@ print_r($courses1);
   }
 ?>
 
+<?php
+    echo "<h1>QUESTION 5 - Index Arrays</h1>";
+    echo "My Favorite Colors<br>";
+    echo "<br>";
+    $colors = array("Absolute Zero", "Acid Green", "AliceBlue", "Crystal", "Denim");
+    $arrlength = count($colors);
+
+    for($x = 0; $x < $arrlength; $x++) {
+    echo $colors[$x];
+    echo "<br>";
+}
+?>
+
+<?php
+    echo "<h1>QUESTION 6 - Associative Arrays</h1>";
+    echo "My Favorite Colors and Hexadecimal Equivalence<br>";
+    echo "<br>";
+    $color = array("Absolute Zero"=>"#0048ba", "Acid Green"=>"#b0bf1a", "AliceBlue"=>"#f0f8ff", "Crystal"=>"#a7d8de", "Denim"=>"#1560bd");
+
+    foreach($color as $x => $x_value) {
+    echo "Favorite color = " . $x . ", Hexadecimal equivalence = " . $x_value;
+    echo "<br>";
+    }
+?>
 
 </body>
 </html>
