@@ -141,7 +141,7 @@ print_r($courses1);
     //Answer: the for loop loops through this array for the exact specified number of times. It begins with an initial or start of a counter. 
     // in the example below, the intial counter is set to ($temp_array_length-5)
     // For as long as $i is less than ($temp_array_length), the loop contnues to count. 
-    // for each repetition, the counter increases by 1.
+    // for each repetition or iteration, the counter increases by 1.
     for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
     {
     echo $temp_array[$i].", ";
