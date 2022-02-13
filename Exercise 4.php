@@ -56,6 +56,8 @@ print_r($courses1);
 
 <?php
     echo "<h1>QUESTION 3</h1>";
+
+    echo "Only Associative arrays can be sorted by values and keys.";
 ?>
 
 <?php
