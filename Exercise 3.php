@@ -62,8 +62,8 @@
     elseif ($grade >= 60){
         echo "Good<br>";
     }
-    elseif ($grade >= 60){
-        echo "Great<br>";
+    elseif ($grade >= 50){
+        echo "Pass<br>";
     }
     else{
         echo "Fail";
