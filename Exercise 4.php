@@ -18,7 +18,7 @@
 ?>
 
 <?php
-$courses = array("PHP", "HTML", "Javascript", "CMS", "project");
+$courses = array("PHP", "HTML", "Javascript", "CMS", "Project");
 
 echo "
 
@@ -36,7 +36,7 @@ echo "
 ?>
 
 <?php
-$courses1 = array("PHP", "HTML", "Javascript", "CMS", "project");
+$courses1 = array("PHP", "HTML", "Javascript", "CMS", "Project");
 echo "Elements in the Array - Courses1 <br>";
 echo $courses1[0] .", ".  $courses1[1] . ", ". $courses1[2] .", ".  $courses1[3] . ", ". $courses1[4];
 
@@ -57,7 +57,26 @@ print_r($courses1);
 <?php
     echo "<h1>QUESTION 3</h1>";
 
-    echo "Only Associative arrays can be sorted by values and keys.";
+    echo "<h4>Sorting Arrays In Ascending order.</h4> <br>";
+    $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+    sort ($courses3);
+
+    $clength = count($courses3);
+    for ($c = 0; $c < $clength; $c++){
+        echo $courses3[$c];
+        echo "<br>";
+    }
+
+    
+    echo "<h4>Sorting Arrays In Descending Order.</h4> <br>";
+    $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+    rsort ($courses3);
+
+    $clength = count($courses3);
+    for ($c = 0; $c < $clength; $c++){
+        echo $courses3[$c];
+        echo "<br>";
+    }
 ?>
 
 <?php
